@@ -2,14 +2,14 @@
 
 Github Issue: https://github.com/sveltejs/kit/issues/11942
 
-```console
+```shell
 src/
 ├── app.d.ts
 ├── app.html
 └── routes
     ├── +page.svelte
     └── login
-        ├── +page.svelte     <<<--- BUG HERE
+        ├── +page.svelte  <<< BUG_IS_HERE
         └── redirect
             └── +server.ts
 
