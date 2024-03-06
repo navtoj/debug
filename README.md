@@ -18,7 +18,7 @@ The [`data-sveltekit-replacestate`](https://kit.svelte.dev/docs/link-options#dat
 ## Steps to Reproduce
 
 ```bash
-# clone the repository
+# clone the project branch
 git clone --single-branch --branch data-sveltekit-replacestate https://github.com/navtoj/debug.git data-sveltekit-replacestate
 
 # change directory to the project
