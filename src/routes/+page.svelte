@@ -5,7 +5,6 @@
 
 <h1>SvelteKit</h1>
 <h1>$app/environment</h1>
-<h1>{'{ dev }'}</h1>
 
 <br />
 <br />
