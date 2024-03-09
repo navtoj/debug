@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { appVersion, isBrowser, isBuilding, mode } from '$lib/index';
-	console.log({ isBrowser, isBuilding, mode, appVersion });
+	import { appVersion, isBrowser, isBuilding, devMode } from '$lib/env';
+	console.log({ isBrowser, isBuilding, devMode, appVersion });
 </script>
 
 <h1>SvelteKit</h1>
@@ -13,9 +13,9 @@
 <br />
 <br />
 
-<p>browser: {isBrowser}.</p>
-<p>building: {isBuilding}.</p>
-<p>The mode is {mode}.</p>
+<p>Browser: {isBrowser}</p>
+<p>Building: {isBuilding}</p>
+<p>The mode is {devMode}.</p>
 <p>The app version is {appVersion}.</p>
 
 <br />
